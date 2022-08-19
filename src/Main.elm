@@ -71,14 +71,14 @@ initialModel =
     { board = Grid { card = Array.push empty empty, width = 6, height = 6 }, firstCard = Nothing, secondCard = Nothing }
 
 
-type Msg
-    = Start
+type alias Msg =
+    Turn
 
 
 update : Msg -> Model -> Model
 update msg model =
     case msg of
-        Start ->
+        _ ->
             model
 
 

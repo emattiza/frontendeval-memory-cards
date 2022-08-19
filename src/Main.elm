@@ -55,8 +55,7 @@ viewBoard (Grid board) =
 
 
 type Turn
-    = FlipFirst Card
-    | FlipSecond Card
+    = Flip Card
     | NextFlip
     | Match
     | Fail

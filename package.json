@@ -19,7 +19,7 @@
     "elm-tooling": "1.8.0",
     "postcss": "8.4.14",
     "vite": "2.9.15",
-    "vite-plugin-elm": "2.6.1"
+    "vite-plugin-elm": "2.7.2"
   },
   "dependencies": {
     "daisyui": "2.19.0",
